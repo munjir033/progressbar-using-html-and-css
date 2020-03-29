@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>My Lifestyle</title>
+</head>
+ <style type="text/css">
+  
+  .main{
+  top: 2px;
+  background: #e6e6e6;
+  height: 300px;
+  width:auto;
+  border-radius: 10px;
+  }
+  
+  h2{text-align: center;
+  margin-top: 10px;
+  }
+  
+  #p{
+  text-align:right;
+  margin: 0 5px 0 0;
+  padding:0;
+  }
+  
+  .pber1, .pber2, .pber3, 
+  .pber4, .pber5{
+  top: 0px;
+  margin-left: 1px;
+  position:absolute;
+  height: 25px;
+  width: 0%;
+  border-radius: 10px;
+  opacity: 0.8;
+  transition:ease 2s;
+  }
+  
+  .pber{
+  background: #fff;
+  position:relative;
+  left: 5px;
+  margin-top: 20px;
+  height: 25px;
+  width: 98%;
+  border-radius: 10px;
+  }
+  
+  .pber1{background: #00bfff;}
+  .pber2{background: #0040ff;}
+  .pber3{background: #bf00ff;}
+  .pber4{background: #ff9900;}
+  .pber5{background: #33cc33;}
+  
+  {change width to x% according to your need}
+  .main:hover .pber1{width: 48%;}
+  .main:hover .pber2{width: 80%;}
+  .main:hover .pber3{width: 20%;}
+  .main:hover .pber4{width: 12%;}
+  .main:hover .pber5{width: 36%;}
+  
+  
+ </style>
+<body>
+ 
+ <div class="main">
+  <h2>HOW I PASS MY 24 HOUR?</h2>
+  
+  <!--change the the texts under p tag
+      according to your need-->
+  
+  <div class="pber">
+  <p id="p"><b>Sleep</b></p>
+   <div class="pber1"></div>
+  </div>
+  
+  <div class="pber">
+  <p id="p"><b>Study</b></p>
+  <div class="pber2"></div>
+  </div>
+  
+  <div class="pber">
+  <p id="p"><b>Internet</b></p>
+   <div class="pber3"></div>
+  </div>
+  
+  <div class="pber">
+  <p id="p"><b>Self dev</b></p>
+   <div class="pber4"></div>
+  </div>
+  
+  <div class="pber">
+  <p id="p"><b>Others</b></p>
+   <div class="pber5"></div>
+  </div>
+   
+   <small>
+   *hover to see info<br>made by 
+   <a href="https://munjiribnhabib.wordpress.com">Munjir</a>
+    | copyright free code
+   </small>
+ 
+ </div>
+</body>
+</html>

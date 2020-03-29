@@ -1,0 +1,70 @@
+<html>
+ <head>
+  <title>Dropdown Menu Button</title>
+  <style>
+  
+  button{color: white;
+  font-size: 22px;
+  background-color: #8c1aff;
+  padding: 10px 20px;
+  outline: none;
+  border: 2px solid #8c1aff;
+  border-radius: 8px;
+  transition: 0.5s;}
+  
+  button:hover{letter-spacing: 5px;}
+  
+  .main{position: relative;
+  display:inline-block;
+  transition: 0.3s;}
+  
+  .content a{text-decoration:none;
+  color: black;
+  display: block;
+  font-size: 20px;
+  border-radius: 10px;
+  width:170px;
+  padding: 10px 20px;
+  transition: 0.3s;}
+  
+  .content a:hover{color: white;
+  background-color: #8c1aff;
+  font-size: 22px;
+  font-weight:bolder;}
+  
+  .content{ display: none;
+   position: absolute;
+   box-shadow: 0px 10px 15px 0px #eb99ff;
+   border-radius: 10px;
+   background-color:white;
+   }
+  
+  .main:hover .content{display:block;}
+  
+  footer{margin-top: 250px;
+  text-align:center;}
+  
+  #dd{background-color:#8c1aff;
+  color: white;}
+  </style>
+ </head>
+ 
+ <body>
+ <h1 style="color:#8c1aff;">Hoverable <span id="dd">Dropdown</span> Menu Button</h1>
+ 
+ <div class="main">
+  <button>Menu</button>
+  <div class="content">
+   <a href="#">Home</a>
+   <a href="#">Blogs</a>
+   <a href="#">About</a>
+   <a href="#">Contact</a>
+  </div>
+ </div>
+ <footer>
+  <p>Created By 
+  <a href="https://munjiribnhabib.wordpress.com">Munjir</a> |
+  Copyright free code</p>
+  </footer> 
+ </body>
+</html>
